@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+job_skills.csv filter=lfs diff=lfs merge=lfs -text
+linkedin_job_postings.csv filter=lfs diff=lfs merge=lfs -text
